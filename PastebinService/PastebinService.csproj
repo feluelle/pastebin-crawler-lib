@@ -5,7 +5,7 @@
     <ProjectGuid>{D6AF8994-5D50-4892-BF4F-1A408DBC4B5B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <AssemblyName>ClassLibrary</AssemblyName>
+    <AssemblyName>Pastebin.Service</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -46,8 +46,8 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Document\PastebinDocument.cs" />
-    <Compile Include="Document\PastebinDocumentDownloader.cs" />
+    <Compile Include="PastebinDocument.cs" />
+    <Compile Include="PastebinCrawler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
