@@ -14,3 +14,10 @@ we have a custom scraper API available where we can whitelist your IP, so you do
 This feature is only available for LIFETIME PRO users. To learn more, visit our scraping page.
 ```
 See its FAQ section http://pastebin.com/faq for more information.
+
+## ToDo
+-> pastebin-crawler-lib [contains PastebinCrawler, PastebinDocument]
+-> text-analystics-api [returns {name:string, result:ICollection}] 
+	if contains password then split by ' ' 
+	if contains email then
+-> pastebin-data-sniffer (+ Filter)
