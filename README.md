@@ -16,8 +16,10 @@ This feature is only available for LIFETIME PRO users. To learn more, visit our 
 See its FAQ section http://pastebin.com/faq for more information.
 
 ## ToDo
--> pastebin-crawler-lib [contains PastebinCrawler, PastebinDocument]
--> text-analystics-api [returns {name:string, result:ICollection}] 
+- pastebin-crawler-lib [contains PastebinCrawler, PastebinDocument]
+
+- text-analystics-api [returns {name:string, result:ICollection}] 
 	if contains password then split by ' ' 
 	if contains email then
--> pastebin-data-sniffer (+ Filter)
+	
+- pastebin-data-sniffer (+ Filter)
